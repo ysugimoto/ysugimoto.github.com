@@ -4,7 +4,7 @@
         return alert("ServiceWorker is not Supported on you browser");
     }
 
-    navigator.serviceWorker.register("/examples/js/service-worker.js")
+    navigator.serviceWorker.register("/service-worker.js")
         .then(function(registration) {
             console.log("Service Worker success: ", registration);
         })
